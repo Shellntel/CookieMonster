@@ -1,0 +1,245 @@
+{
+    "Google Analytics": {
+        "description": "Google Analytics is a web analytics service offered by Google that tracks and reports website traffic.",
+        "patterns": [
+            ["_ga", "Google Analytics", "Used to distinguish users."],
+            ["_gid", "Google Analytics", "Used to distinguish users."],
+            ["_gat", "Google Analytics", "Used to throttle request rate."],
+            ["__utma", "Google Analytics", "Used to distinguish users and sessions."],
+            ["__utmb", "Google Analytics", "Used to determine new sessions/visits."],
+            ["__utmc", "Google Analytics", "Used with __utmb to determine new sessions/visits."],
+            ["__utmt", "Google Analytics", "Used to throttle request rate."],
+            ["__utmz", "Google Analytics", "Stores the traffic source or campaign that explains how the user reached your site."],
+            ["_gac_", "Google Analytics", "Contains campaign-related information for the user."]
+        ]
+    },
+    "Google Ads": {
+        "description": "Google Ads is an online advertising platform developed by Google, where advertisers pay to display brief advertisements, service offerings, and product listings.",
+        "patterns": [
+            ["IDE", "Google Ads", "Used by Google DoubleClick to register and report the website user's actions after viewing or clicking on one of the advertiser's ads."],
+            ["DSID", "Google Ads", "Used to link a user’s activity across devices."],
+            ["FLC", "Google Ads", "A DoubleClick cookie that carries out information about how the end user uses the website."],
+            ["AID", "Google Ads", "Used to link your activity across devices if you've previously signed in to your Google account."],
+            ["TAID", "Google Ads", "Used to link your activity across devices if you've previously signed in to your Google account."],
+            ["exchange_uid", "Google Ads", "Used by Google's ad exchange to register and report the website user's actions."],
+            ["_gcl_au", "Google AdSense", "Used by Google AdSense to experiment with advertisement efficiency across websites using their services."]
+        ]
+    },
+    "Facebook Pixel": {
+        "description": "Facebook Pixel is an analytics tool that allows you to measure the effectiveness of your advertising by understanding the actions people take on your website.",
+        "patterns": [
+            ["_fbp", "Facebook Pixel", "Used by Facebook to deliver a series of advertisement products such as real-time bidding from third-party advertisers."],
+            ["fr", "Facebook Pixel", "Used by Facebook to deliver, measure, and improve the relevancy of ads."]
+        ]
+    },
+    "HubSpot": {
+        "description": "HubSpot is a CRM platform that provides tools for sales, marketing, and customer service.",
+        "patterns": [
+            ["__hstc", "HubSpot", "The main cookie for tracking visitors."],
+            ["__hssrc", "HubSpot", "Used to determine if the visitor has restarted their browser."],
+            ["__hssc", "HubSpot", "Used to keep track of sessions."],
+            ["hubspotutk", "HubSpot", "Keeps track of a visitor's identity."]
+        ]
+    },
+    "LinkedIn": {
+        "description": "LinkedIn uses cookies to personalize your experience and improve its services.",
+        "patterns": [
+            ["bscookie", "LinkedIn", "Used by LinkedIn for tracking the use of embedded services."],
+            ["lidc", "LinkedIn", "Used for routing."],
+            ["bcookie", "LinkedIn", "Browser ID cookie used for tracking the use of embedded services."],
+            ["UserMatchHistory", "LinkedIn Ads", "Used to track visitors on multiple websites, to present relevant ads based on the visitor's preferences."],
+            ["li_oatml", "LinkedIn", "Used for LinkedIn ad analytics."],
+            ["li_sugr", "LinkedIn", "Used for LinkedIn ad analytics."],
+            ["BizographicsOptOut", "LinkedIn", "Opt-out cookie to disable LinkedIn data collection."],
+            ["li_fat_id", "LinkedIn", "Used for tracking the use of LinkedIn embedded services."]
+        ]
+    },
+    "Twitter": {
+        "description": "Twitter uses cookies to improve and personalize your experience on its platform.",
+        "patterns": [
+            ["personalization_id", "Twitter", "This cookie is set due to Twitter integration and sharing capabilities for the social media."],
+            ["guest_id", "Twitter", "Used by Twitter to identify and track users."]
+        ]
+    },
+    "Adobe Analytics": {
+        "description": "Adobe Analytics is a web analytics service that provides detailed information about website traffic and performance.",
+        "patterns": [
+            ["s_cc", "Adobe Analytics", "Determines whether cookies are enabled in the user's browser."],
+            ["s_sq", "Adobe Analytics", "Used to collect information about how end users navigate the site."],
+            ["s_vi", "Adobe Analytics", "Used to identify unique visitors."]
+        ]
+    },
+    "Quantcast": {
+        "description": "Quantcast provides audience insights and real-time advertising data.",
+        "patterns": [
+            ["mc", "Quantcast", "Collects data on the user’s visits to the website, such as what pages have been loaded."],
+            ["__qca", "Quantcast", "Collects anonymous data on the user's website visits."]
+        ]
+    },
+    "Hotjar": {
+        "description": "Hotjar provides analytics and feedback data from your website’s visitors.",
+        "patterns": [
+            ["_hjIncludedInSample", "Hotjar", "Determines if the user is included in the data sampling defined by your site's daily session limit."],
+            ["_hjUserId", "Hotjar", "Assigns a unique ID to the user and logs user behavior on the website."],
+            ["_hjFirstSeen", "Hotjar", "Used to identify a new user’s first session."],
+            ["_hjAbsoluteSessionInProgress", "Hotjar", "Counts how many times a website has been visited by different users."],
+            ["_hjTLDTest", "Hotjar", "Used to determine the most generic cookie path to use."]
+        ]
+    },
+    "Crazy Egg": {
+        "description": "Crazy Egg is a tool that provides heatmaps and recordings of visitor behavior on a website.",
+        "patterns": [
+            ["is_returning", "Crazy Egg", "Tracks whether a user has visited the site before."]
+        ]
+    },
+    "Bing Ads": {
+        "description": "Bing Ads uses cookies to track conversions and retarget ads to users who have visited the website.",
+        "patterns": [
+            ["_uetsid", "Bing Ads", "Used by Bing Ads to engage with a user that has previously visited the website."],
+            ["_uetvid", "Bing Ads", "Used by Bing Ads to engage with a user that has previously visited the website."]
+        ]
+    },
+    "New Relic": {
+        "description": "New Relic provides performance monitoring for websites and web applications.",
+        "patterns": [
+            ["JSESSIONID", "New Relic", "Used by New Relic to store a session identifier so that New Relic can monitor session counts for an application."],
+            ["NRBA_SESSION_ID", "New Relic", "Used for monitoring website performance."]
+        ]
+    },
+    "Yandex Metrica": {
+        "description": "Yandex Metrica is a web analytics tool that tracks and reports website traffic.",
+        "patterns": [
+            ["_ym_d", "Yandex Metrica", "Stores the date of the user's first site session."],
+            ["_ym_isad", "Yandex Metrica", "Used to determine if the user has ad blockers."],
+            ["_ym_uid", "Yandex Metrica", "Used to identify users."],
+            ["_ym_visorc", "Yandex Metrica", "Used for web analytics."]
+        ]
+    },
+    "Matomo": {
+        "description": "Matomo is an open-source web analytics platform that provides detailed reports on website traffic.",
+        "patterns": [
+            ["_pk_id", "Matomo", "Used to store a few details about the user such as the unique visitor ID."],
+            ["_pk_ses", "Matomo", "Short lived cookies used to temporarily store data for the visit."]
+        ]
+    },
+    "Cloudflare": {
+        "description": "Cloudflare is a content delivery network and security service that protects websites from online threats.",
+        "patterns": [
+            ["__cfduid", "Cloudflare", "Used by Cloudflare to identify individual clients behind a shared IP address and apply security settings on a per-client basis."],
+            ["__cflb", "Cloudflare", "Used for load balancing to optimize service efficiency."]
+        ]
+    },
+    "Microsoft Clarity": {
+        "description": "Microsoft Clarity is a user behavior analytics tool that helps you understand how users interact with your website.",
+        "patterns": [
+            ["_clsk", "Microsoft Clarity", "Connects multiple page views by a user into a single Clarity session recording."],
+            ["_clck", "Microsoft Clarity", "Persists the Clarity User ID and preferences, unique to that site, on the browser."]
+        ]
+    },
+    "Reddit Pixel": {
+        "description": "Reddit Pixel tracks conversions from Reddit ads.",
+        "patterns": [
+            ["_rdt_uuid", "Reddit Pixel", "Used by Reddit to track user behavior across the web."]
+        ]
+    },
+    "DoubleClick (Google)": {
+        "description": "DoubleClick is a subsidiary of Google that develops and provides Internet ad serving services.",
+        "patterns": [
+            ["test_cookie", "DoubleClick", "Used to check if the user's browser supports cookies."],
+            ["id", "DoubleClick", "Used for targeting, analyzing and optimizing ad campaigns."],
+            ["__gads", "DoubleClick", "Used to serve ads and measure interactions with them."]
+        ]
+    },
+    "AppNexus": {
+        "description": "AppNexus is a cloud-based software platform that enables and optimizes programmatic online advertising.",
+        "patterns": [
+            ["anj", "AppNexus", "Used by AppNexus to store a unique user ID that recognizes the user on returning visits."],
+            ["uuid2", "AppNexus", "Collects anonymous information about users' visits to the website."]
+        ]
+    },
+    "Amazon Advertising": {
+        "description": "Amazon Advertising provides ad solutions for brands to connect with the right audience on Amazon and beyond.",
+        "patterns": [
+            ["ad-id", "Amazon Advertising", "Used for ad tracking and retargeting."],
+            ["ad-privacy", "Amazon Advertising", "Stores user preferences for Amazon's ad services."]
+        ]
+    },
+    "AddThis": {
+        "description": "AddThis is a social bookmarking service that can be integrated into a website with the use of a web widget.",
+        "patterns": [
+            ["__atuvc", "AddThis", "Enables users to share content across different networking and sharing forums."],
+            ["__atuvs", "AddThis", "Ensures that the updated share count is displayed to the user if they share a page and return to it before the share count cache is updated."]
+        ]
+    },
+    "Mixpanel": {
+        "description": "Mixpanel is an advanced analytics service that helps improve web and mobile applications by tracking user interactions.",
+        "patterns": [
+            ["mp_", "Mixpanel", "Used by Mixpanel to analyze traffic and user activity."]
+        ]
+    },
+    "ClickDimensions": {
+        "description": "ClickDimensions provides email marketing and marketing automation solutions for Microsoft Dynamics CRM.",
+        "patterns": [
+            ["cuvid", "ClickDimensions", "Used to track individual visitors and their site usage."],
+            ["cusid", "ClickDimensions", "Used to track individual sessions on the website."],
+            ["cuvon", "ClickDimensions", "Used to signal the last time a visitor viewed a page."]
+        ]
+    },
+    "Segment": {
+        "description": "Segment is a customer data platform that helps collect and manage user data.",
+        "patterns": [
+            ["ajs_anonymous_id", "Segment", "Used to track user activity on a website."],
+            ["ajs_user_id", "Segment", "Stores the user ID in Segment."]
+        ]
+    },
+    "Pinterest": {
+        "description": "Pinterest uses cookies to track the usage of its services and user interactions.",
+        "patterns": [
+            ["_pinterest_sess", "Pinterest", "Used by Pinterest to track the usage of services."],
+            ["_pinterest_ct", "Pinterest", "Used for tracking the use of embedded services."],
+            ["_pinterest_referrer", "Pinterest", "Used for tracking referrals from Pinterest."]
+        ]
+    },
+    "Snapchat": {
+        "description": "Snapchat uses cookies to deliver and measure the performance of ads.",
+        "patterns": [
+            ["_scid", "Snapchat", "Used by Snapchat to provide ad analytics."],
+            ["_schn", "Snapchat", "Used for tracking conversions from ads."]
+        ]
+    },
+    "TikTok": {
+        "description": "TikTok uses cookies to track and optimize ads served on the platform.",
+        "patterns": [
+            ["tt_webid", "TikTok", "Used to identify a user on TikTok."],
+            ["_ttp", "TikTok", "Tracks the effectiveness of ads on TikTok."]
+        ]
+    },
+    "Taboola": {
+        "description": "Taboola provides content discovery and recommendation services for online publishers.",
+        "patterns": [
+            ["t_gid", "Taboola", "Used to determine which pages and services are relevant to users."],
+            ["trc_cookie_storage", "Taboola", "Used to track user interactions with Taboola services."]
+        ]
+    },
+    "Outbrain": {
+        "description": "Outbrain provides content marketing and recommendation services.",
+        "patterns": [
+            ["outbrain_cid_fetch", "Outbrain", "Tracks user interactions with Outbrain's recommendation widgets."],
+            ["outbrain_cid", "Outbrain", "Used for tracking user activity across the web."]
+        ]
+    },
+    "Quantcast Measure": {
+        "description": "Quantcast Measure helps companies measure, understand, and optimize their digital audiences.",
+        "patterns": [
+            ["__qseg", "Quantcast Measure", "Collects data about the user's browsing activity."],
+            ["__qca", "Quantcast Measure", "Collects anonymous data on the user's website visits."]
+        ]
+    },
+    "Tealium": {
+        "description": "Tealium provides tag management and customer data platform services.",
+        "patterns": [
+            ["utag_main", "Tealium", "Used by Tealium to manage and track user interactions with different services."]
+        ]
+    }
+}
+
