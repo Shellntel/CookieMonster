@@ -1,4 +1,4 @@
-
+![alt text](https://github.com/njoyzrd/CookieMonster/blob/main/CookieMonster.png?raw=true)
 # CookieMonster
 
 CookieMonster is a tool designed to discover and categorize cookies set by websites. It utilizes a headless Chrome browser to visit a given URL (or URLs from a file), extract cookies, categorize them into first-party, third-party, and third-party tracking cookies, and then optionally generates a summary report.
