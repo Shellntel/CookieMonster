@@ -1,3 +1,4 @@
+
 ![alt text](https://github.com/njoyzrd/CookieMonster/blob/main/CookieMonster.png?raw=true)
 
 # CookieMonster
@@ -6,19 +7,10 @@ CookieMonster is a tool designed to discover and categorize cookies set by websi
 
 ## Installation
 
-Ensure that you have Python 3 installed. You'll also need the following Python packages:
-- `selenium`
-- `webdriver_manager`
-- `pyvirtualdisplay`
-- `tldextract`
-- `whois`
-- `pandas`
-- `prettytable`
-
-You can install these packages using pip:
+Ensure that you have Python 3 installed. You'll also need to install the necessary Python packages listed in the `requirements.txt` file. You can install them using pip:
 
 ```bash
-pip install selenium webdriver-manager pyvirtualdisplay tldextract whois pandas prettytable
+pip install -r requirements.txt
 ```
 
 ### Headless Chrome Setup
@@ -77,6 +69,25 @@ python3 CookieMonster.py [URL or file] [options]
    ```bash
    python3 CookieMonster.py urls.txt -f -v -r
    ```
+
+## Tracking Cookie Patterns
+
+The script uses a `tracking_cookie_patterns.json` file to identify and categorize tracking cookies. This file contains patterns of known tracking cookies along with their friendly names and descriptions. You can customize this file to add or update patterns as needed.
+
+### Example `tracking_cookie_patterns.json` Structure:
+
+```json
+{
+    "Google Analytics": {
+        "description": "Google Analytics is a web analytics service offered by Google that tracks and reports website traffic.",
+        "patterns": [
+            ["_ga", "Google Analytics", "Used to distinguish users."],
+            ["_gid", "Google Analytics", "Used to distinguish users."]
+        ]
+    },
+    ...
+}
+```
 
 ## Output
 
